@@ -1,36 +1,28 @@
 <template>
   <div id="app">
-    <!-- Navigasi (opsional) -->
-    <!-- <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/biodata">Biodata</router-link>
-    </nav> -->
-
-    <!-- Komponen yang cocok dengan route akan dirender di sini -->
     <router-view/>
   </div>
 </template>
 
 <script setup>
-// Tidak perlu script khusus untuk ini, kecuali Anda mau menambahkan logika
+
 </script>
 
 <style>
-/* Anda bisa menambahkan style global di sini atau di file CSS terpisah */
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* text-align: center; */ /* Mungkin tidak perlu center untuk CV */
+ 
   color: #2c3e50;
-  margin-top: 20px; /* Beri sedikit margin atas */
-  max-width: 800px; /* Batasi lebar agar seperti dokumen */
+  margin-top: 20px; 
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding: 15px;
 }
 
-/* Contoh style dasar untuk CV nanti */
 .cv-container {
   border: 1px solid #eee;
   padding: 20px;
@@ -43,9 +35,9 @@
 .cv-photo {
   max-width: 150px;
   height: auto;
-  border-radius: 50%; /* Membuat foto jadi bulat */
+  border-radius: 50%; 
   display: block;
-  margin: 0 auto 15px auto; /* Tengah dan beri jarak bawah */
+  margin: 0 auto 15px auto;
 }
 .cv-section {
   margin-bottom: 15px;
